@@ -7,3 +7,8 @@
 # Contributors:
 #  IBM Corporation - initial API and implementation
 ###############################################################################
+service:  
+  type: NodePort
+  webuiPort: 4414
+  serverPort: 7800
+  nodePort: 7080
