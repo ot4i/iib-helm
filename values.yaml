@@ -12,3 +12,5 @@ service:
   webuiPort: 4414  
   serverlistenerPort: 7800
   nodelistenerPort: 7080
+image: "master.cfc:8500/default/iibv10fp9image:dev"  
+imagePullPolicy: IfNotPresent
