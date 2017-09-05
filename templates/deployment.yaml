@@ -25,8 +25,8 @@ spec:
       - name: admin.registrykey
       containers:
       - name: {{ template "fullname" . }} 
-        image: "master.cfc:8500/default/iibv10fp9image:dev"  "{{ .Values.image }}"
-        imagePullPolicy: IfNotPresent  "{{ .Values.imagePullPolicy }}"
+        image: "{{ .Values.image }}"
+        imagePullPolicy: "{{ .Values.imagePullPolicy }}"
         ports:
         - containerPort: 7800
           name: serverlistener
@@ -44,6 +44,4 @@ spec:
         -
          name : SERVERNAME
          value : {{ .Values.servername }}
-         
-         
          
