@@ -14,16 +14,19 @@ metadata:
   labels:
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
 spec:
-  type: LoadBalancer 
+  type: {{ .Values.service.type }}
   ports:
-  - port: 4414
-    targetPort: 4414    
+  - port: {{ .Values.service.webuiPort }}
+    targetPort: {{ .Values.service.webuiPort }}
+    protocol: TCP
     name: webui
-  - port: 7800
-    targetPort: 7800
+  - port: {{ .Values.service.serverlistenerPort }}
+    targetPort: {{ .Values.service.serverlistenerPort }}
+    protocol: TCP
     name: serverlistener 
-  - port: 7080
-    targetPort: 7080
-    name: nodelistener 
+  - port: {{ .Values.service.nodelistenerPort }}
+    targetPort: {{ .Values.service.nodelistenerPort }}
+    protocol: TCP
+    name: nodelistener       
   selector:
-    app: iibv10 
+    app: {{ template "fullname" . }}
