@@ -25,8 +25,8 @@ spec:
       - name: admin.registrykey
       containers:
       - name: {{ template "fullname" . }} 
-        image: "{{ .Values.image }}"
-        imagePullPolicy: "{{ .Values.imagePullPolicy }}"
+        image: "{{ .values.image }}"
+        imagePullPolicy: "{{ .values.imagePullPolicy }}"
         ports:
         - containerPort: 7800
           name: serverlistener
@@ -37,11 +37,11 @@ spec:
         env:
         -
          name : LICENSE
-         value : {{ .Values.license }}
+         value : {{ .values.license }}
         -
          name : NODENAME
-         value : {{ .Values.nodename }}
+         value : {{ .values.nodename }}
         -
          name : SERVERNAME
-         value : {{ .Values.servername }}
+         value : {{ .values.servername }}
          
