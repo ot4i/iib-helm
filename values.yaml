@@ -9,6 +9,6 @@
 ###############################################################################
 service:  
   type: NodePort
-  webuiPort: 4414
-  serverPort: 7800
-  nodePort: 7080
+  webuiPort: 4414  
+  serverlistenerPort: 7800
+  nodelistenerPort: 7080
