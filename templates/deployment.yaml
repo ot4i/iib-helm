@@ -37,11 +37,10 @@ spec:
         env:
         -
          name : LICENSE
-         value : {{ .values.license }}
+         value : {{ .Values.license }}
         -
          name : NODENAME
-         value : {{ .values.nodename }}
+         value : {{ .Values.nodename }}
         -
          name : SERVERNAME
-         value : {{ .values.servername }}
-         
+         value : {{ .Values.servername }}
