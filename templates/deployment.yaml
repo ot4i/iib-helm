@@ -25,8 +25,8 @@ spec:
       - name: admin.registrykey
       containers:
       - name: {{ template "fullname" . }} 
-        image: "{{ .values.image }}"
-        imagePullPolicy: "{{ .values.imagePullPolicy }}"
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}        
         ports:
         - containerPort: 7800
           name: serverlistener
