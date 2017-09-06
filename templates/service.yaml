@@ -14,18 +14,18 @@ metadata:
   labels:
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
 spec:
-  type: {{ .values.service.type }}
+  type: {{ .Values.service.type }}
   ports:
-  - port: {{ .values.service.webuiPort }}
-    targetPort: {{ .values.service.webuiPort }}
+  - port: {{ .Values.service.webuiPort }}
+    targetPort: {{ .Values.service.webuiPort }}
     protocol: TCP
     name: webui
-  - port: {{ .values.service.serverlistenerPort }}
-    targetPort: {{ .values.service.serverlistenerPort }}
+  - port: {{ .Values.service.serverlistenerPort }}
+    targetPort: {{ .Values.service.serverlistenerPort }}
     protocol: TCP
     name: serverlistener 
-  - port: {{ .values.service.nodelistenerPort }}
-    targetPort: {{ .values.service.nodelistenerPort }}
+  - port: {{ .Values.service.nodelistenerPort }}
+    targetPort: {{ .Values.service.nodelistenerPort }}
     protocol: TCP
     name: nodelistener       
   selector:
