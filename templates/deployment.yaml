@@ -7,7 +7,7 @@
 # Contributors:
 #  IBM Corporation - initial API and implementation
 ###############################################################################
-apiVersion: v1
+apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: {{ template "fullname" . }}

@@ -16,6 +16,6 @@ image:
   repository: master.cfc:8500/default/iibv10fp9image
   tag: dev
   pullPolicy: IfNotPresent
-license: "Not Accepted"
+license: "Not accepted"
 nodename: "IIB_NODE"
 servername: "IIB_SERVER"
