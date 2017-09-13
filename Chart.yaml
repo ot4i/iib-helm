@@ -11,3 +11,4 @@ apiVersion: v1
 description: IBM Integration Bus node
 name: iib-helm
 version: 0.1.0
+icon: https://github.com/ot4i/iib-helm/blob/master/IBM_Integration_Bus_Icon.svg
