@@ -12,7 +12,10 @@ kind: Service
 metadata:
   name: {{ template "fullname" . }}
   labels:
+    heritage: "{{ .Release.Service }}"
+    release: "{{ .Release.Name }}"
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    app: "{{ template "fullname" . }}"
 spec:
   type: {{ .Values.service.type }}
   ports:
