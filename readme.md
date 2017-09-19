@@ -7,6 +7,8 @@ IBM® Integration Bus is a market-leading lightweight enterprise integration eng
 
 [View the IBM Integration Bus Dockerfile repository on Github](https://github.com/ot4i/iib-docker)
 
+[View the Official IBM Integration Bus for Developers Docker Image in Docker Hub](https://hub.docker.com/r/ibmcom/iib/)
+
 [Learn more about IBM Integration Bus Docker Tips and Tricks](https://developer.ibm.com/integration/blog/2017/04/04/ibm-integration-bus-docker-tips-tricks/)
 
 [Learn more about IBM Integration Bus and Kubernetes](https://developer.ibm.com/integration/blog/2017/08/21/first-look-using-ibm-integration-bus-kubernetes/)
