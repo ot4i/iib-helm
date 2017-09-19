@@ -3,6 +3,8 @@
 
 ![alt text](https://raw.githubusercontent.com/ot4i/iib-helm/master/ibm-integration-bus-dev/IBM_Integration_Bus_Icon.svg?sanitize=true "IBM Integration Bus Logo")
 
+<img align="left" src="https://raw.githubusercontent.com/ot4i/iib-helm/master/ibm-integration-bus-dev/IBM_Integration_Bus_Icon.svg?sanitize=true">
+
 IBM® Integration Bus is a market-leading lightweight enterprise integration engine that offers a fast, simple way for systems and applications to communicate with each other. As a result, it can help you achieve business value, reduce IT complexity and save money. IBM Integration Bus supports a range of integration choices, skills and interfaces to optimize the value of existing technology investments. 
 
 # Introduction
