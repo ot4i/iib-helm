@@ -56,9 +56,9 @@ Alternatively, a YAML file that specifies the values for the parameters can be p
 
 > **Tip**: You can use the default [values.yaml](values.yaml)
 
-[![Brief introduction to IBM Integration Bus](https://img.youtube.com/vi/qQvT4kJoPTM/0.jpg)](https://www.youtube.com/watch?v=qQvT4kJoPTM)
-
 [View the IBM Integration Bus Dockerfile repository on Github](https://github.com/ot4i/iib-docker)
+
+[View the Official IBM Integration Bus for Developers Docker Image in Docker Hub](https://hub.docker.com/r/ibmcom/iib/)
 
 [Learn more about IBM Integration Bus Docker Tips and Tricks](https://developer.ibm.com/integration/blog/2017/04/04/ibm-integration-bus-docker-tips-tricks/)
 
