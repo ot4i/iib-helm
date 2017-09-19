@@ -13,9 +13,17 @@ service:
   serverlistenerPort: 7800
   nodelistenerPort: 7080
 image:
-  repository: master.cfc:8500/default/iibv10fp9image
-  tag: dev
+  repository: ibmcom/iib
+  tag: 10.0.0.10
+  pullSecret: 
   pullPolicy: IfNotPresent
+resources:
+  limits:
+    cpu: 2
+    memory: 2048Mi
+  requests:
+    cpu: 1
+    memory: 512Mi
 license: "Not accepted"
 nodename: "IIB_NODE"
 servername: "IIB_SERVER"
