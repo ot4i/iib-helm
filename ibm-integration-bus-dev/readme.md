@@ -64,7 +64,7 @@ Alternatively, a YAML file that specifies the values for the parameters can be p
 
 [Learn more about IBM Integration Bus and Docker](https://www.ibm.com/support/knowledgecenter/en/SSMKHH_10.0.0/com.ibm.etools.mft.doc/bz91300_.htm)
 
-[Learn more about IBM Integration Bus and Lightweight Integration](ibm.biz/LightweightIntegrationLinks)
+[Learn more about IBM Integration Bus and Lightweight Integration](www.ibm.biz/LightweightIntegrationLinks)
 
 _Copyright IBM Corporation 2017. All Rights Reserved._
 
