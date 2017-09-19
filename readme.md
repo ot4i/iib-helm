@@ -9,15 +9,11 @@ IBM® Integration Bus is a market-leading lightweight enterprise integration eng
 
 [View the Official IBM Integration Bus for Developers Docker Image in Docker Hub](https://hub.docker.com/r/ibmcom/iib/)
 
-[Learn more about IBM Integration Bus Docker Tips and Tricks](https://developer.ibm.com/integration/blog/2017/04/04/ibm-integration-bus-docker-tips-tricks/)
-
-[Learn more about IBM Integration Bus and Kubernetes](https://developer.ibm.com/integration/blog/2017/08/21/first-look-using-ibm-integration-bus-kubernetes/)
-
-[Learn more about running IBM Integration Bus in the Bluemix Container Service](https://developer.ibm.com/integration/blog/2016/11/18/run-ibm-integration-bus-in-bluemix-in-3-easy-steps/)
-
 [Learn more about IBM Integration Bus](https://www.ibm.com/support/knowledgecenter/en/SSMKHH_10.0.0/com.ibm.etools.msgbroker.helphome.doc/help_home_msgbroker.htm)
 
 [Learn more about IBM Integration Bus and Docker](https://www.ibm.com/support/knowledgecenter/en/SSMKHH_10.0.0/com.ibm.etools.mft.doc/bz91300_.htm)
+
+[Learn more about IBM Integration Bus and Lightweight Integration](https://ibm.biz/LightweightIntegrationLinks)
 
 _Copyright IBM Corporation 2017. All Rights Reserved._
 
