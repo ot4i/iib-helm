@@ -21,7 +21,7 @@ metadata:
 spec:
   containers:
   - name: "{{ .Release.Name }}-test"
-    image: alpine-latest
+    image: alpine:latest
     env:
       - name: IIB_HOST
         value: {{ template "fullname" . }}
