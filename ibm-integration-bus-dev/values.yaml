@@ -12,6 +12,7 @@ service:
   webuiPort: 4414  
   serverlistenerPort: 7800
   nodelistenerPort: 7080
+  replicas: 1
 image:
   # repository is the container repository to use, which defaults to IIB docker registry hub image
   repository: ibmcom/iib
