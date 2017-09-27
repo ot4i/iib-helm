@@ -17,7 +17,7 @@ metadata:
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     app: "{{ template "fullname" . }}"
 spec:
-  replicas: 1
+  replicas: {{ .Values.service.replicas }}
   template:
     metadata:
       name: {{ template "fullname" . }} 
