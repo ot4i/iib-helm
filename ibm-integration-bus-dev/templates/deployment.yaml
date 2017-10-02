@@ -49,6 +49,12 @@ spec:
         -
          name : SERVERNAME
          value : {{ .Values.servername }}
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 4414
+          initialDelaySeconds: 15
+          timeoutSeconds: 1
         resources:
           limits:
 {{ toYaml .Values.resources.limits | indent 14 }}
