@@ -1,4 +1,4 @@
-## Please note that we have now released IBM App Connect Enterprise v11, and you can find helm charts for this release at [ot4i/ace-helm](https://github.com/ot4i/ace-helm)
+## THIS REPO HAS BEEN ARCHIVED
 
 <!-- Copyright IBM Corporation 2017. All Rights Resevred. -->
 # IBM INTEGRATION BUS
